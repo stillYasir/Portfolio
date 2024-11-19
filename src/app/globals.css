@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        color: white;
+        background-color: black;
+    }
+}
+
+@layer component {
+    .menulink {
+        @apply cursor-pointer hover:text-[#ffd900];
+    }
+    .tags{
+        background-color: #ffd900;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 3px 10px;
+        display: inline-block;
+        color: black;
+        font-size: 12px;
+    }
+    
+}
